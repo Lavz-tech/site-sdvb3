@@ -147,6 +147,30 @@ p {
   color: #856404;
 }
 
+.form-container input:focus,
+.form-container textarea:focus,
+.form-container button:focus-visible {
+  outline: 2px solid #e94560;
+  outline-offset: 2px;
+}
+
+.form-message {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+}
+
+.form-message:empty {
+  display: none;
+}
+
+.form-message.is-error {
+  color: #a4161a;
+}
+
+.form-message.is-success {
+  color: #1b6b3a;
+}
+
 /* === Footer === */
 footer {
   background-color: #1a1a2e;
