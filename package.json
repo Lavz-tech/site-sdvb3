@@ -1,0 +1,11 @@
+{
+  "name": "site-sdvb3",
+  "version": "1.0.0",
+  "description": "Site web SDVB3",
+  "scripts": {
+    "validate": "html-validate index.html services.html connexion.html"
+  },
+  "devDependencies": {
+    "html-validate": "^8.0.0"
+  }
+}
